@@ -19,7 +19,7 @@
     </a>
   </header>
   <main class="centered-main-page-element">
-    <section id="topSectionForAddingElementToList">
+    <section class="section">
       <label for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id="new-task"
@@ -28,9 +28,9 @@
         <button>Add</button>
       </div>
     </section>
-    <h3>Todo</h3>
-    <section>
-      <ul id="incompleteTasks">
+    <section class="section">
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
         <li>
           <input type="checkbox">
           <label class="task">
@@ -45,7 +45,7 @@
             <img src="./remove.svg" alt="remove">
           </button>
         </li>
-        <li class="editMode">
+        <li class="edit-mode">
           <input type="checkbox">
           <label class="task">
               Go Shopping
@@ -62,8 +62,8 @@
         </li>
       </ul>
     </section>
-    <h3>Completed</h3>
-    <section>
+    <section class="section">
+      <h3>Completed</h3>
       <ul id="completed-tasks">
         <li>
           <input type="checkbox" checked>
