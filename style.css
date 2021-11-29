@@ -43,7 +43,7 @@ body {
 .section__task-row {
   display: flex;
 }
-ul {
+.section-list {
   margin: 0;
   padding: 0px;
 }
@@ -142,27 +142,27 @@ img:hover {
 }
 
 /* Completed */
-ul#completed-tasks 
+.section-list#completed-tasks 
 label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul 
+.section-list 
 li 
 .section__task-inp {
   display: none;
 }
 
-ul 
+.section-list  
 li.edit-mode 
 .section__task-inp {
   display: inline-block;
   width: 224px;
 }
 
-ul 
+.section-list  
 li.edit-mode 
 label {
   display: none;
